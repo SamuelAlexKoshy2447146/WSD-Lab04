@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!ELEMENT product-name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT available-quantity (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ATTLIST product id ID #REQUIRED>
