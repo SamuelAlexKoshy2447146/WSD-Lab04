@@ -79,6 +79,11 @@
                 <description>Two beef patties, six strips of bacon, three slices of cheese, and a special sauce.</description>
                 <price>7.99</price>
             </dish>
+            <dish id="D8">
+                <dish-name>Spicy Chicken Sandwich</dish-name>
+                <description>Spicy breaded chicken breast with lettuce, tomato, and mayo on a toasted bun.</description>
+                <price>6.49</price>
+            </dish>
         </menu>
         <reviews>This restaurant is good. The burgers are juicy and flavorful.</reviews>
     </restaurant>
