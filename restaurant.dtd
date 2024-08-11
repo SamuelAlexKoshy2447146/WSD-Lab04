@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT restaurants (restaurant+)>
+<!ELEMENT restaurant (restaurant-id, restaurant-name, hours, menu, reviews)>
+<!ELEMENT restaurant-id (#PCDATA)>
+<!ELEMENT restaurant-name (#PCDATA)>
+<!ELEMENT hours (#PCDATA)>
+
+
+<!ELEMENT menu (dish+)>
+<!ELEMENT dish (dish-name, description, price)>
+<!ELEMENT dish-name (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+
+<!ELEMENT reviews (#PCDATA)>
+
+
+<!ATTLIST restaurant id ID #REQUIRED>
+<!ATTLIST dish id ID #REQUIRED>
+<!ATTLIST review id ID #REQUIRED>
